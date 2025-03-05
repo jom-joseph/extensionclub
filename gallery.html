@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extension department initiatives</title>
+    <link rel="icon" href="1739128376582.jpg">
+    <link rel="stylesheet" href="web.css">
+    <style>
+
+    </style>
+</head>
+<body class="gallerybody">
+    <nav>
+        <a href="index.html" class="logoandtitle">
+            <img src="1739128376582.jpg" height="5" width="5"></img>
+            <label class="logoname">EXTENSION DEPT</label>
+        </a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="initiatives.html">initiatives</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="feedback.html">feedback</a></li>
+        </ul>
+    </nav>
+    <h2 class="galleryheading">PHOTO GALLERY</h2>
+    <div class="gallerycontainer1">
+    <div class="buttons">
+        <button onclick="filterImages('all')">All Photos</button>
+        <button onclick="filterImages('program1')">Livelihood Intervention Programme</button>
+        <button onclick="filterImages('program2')">Marian Community Wellness Center</button>
+        <button onclick="filterImages('program3')"> International Volunteering & Cross-Cultural Learning</button>
+        <button onclick="filterImages('program4')">Class Outreach Activities</button>
+        <button onclick="filterImages('program5')">National Seminars & Cultural Performances</button>
+        <button onclick="filterImages('program6')">Community Development & Student Engagement</button>
+        <button onclick="filterImages('program7')">Sahya Community Fest</button>
+
+
+    </div>
+    </div>
+    <div class="gallery1">
+        <img src="livelihoodprogramme1.jpg" class="image program1" alt="Program 1">
+        <img src="livelihoodprogramme2.jpg" class="image program1" alt="Program 1">
+        <img src="livelihoodprogramme3.jpg" class="image program1" alt="Program 1">
+        <img src="mariancommunity1.jpg" class="image program2" alt="Program 2">
+        <img src="mariancommunity2.jpg" class="image program2" alt="Program 2">
+        <img src="mariancommunity3.jpg" class="image program2" alt="Program 2">
+        <img src="internationalvolunteering1.jpg" class="image program3" alt="Program 3">
+        <img src="internationalvolunteering2.jpg" class="image program3" alt="Program 3">
+        <img src="internationalvolunteering3.jpg" class="image program3" alt="Program 3">
+        <img src="internationalvolunteering4.jpg" class="image program3" alt="Program 3">
+        <img src="outreach1.jpg" class="image program4" alt="Program 4">
+        <img src="outreach2.jpg" class="image program4" alt="Program 4">
+        <img src="outreach3.jpg" class="image program4" alt="Program 4">
+        <img src="outreach4.jpg" class="image program4" alt="Program 4">
+        <img src="outreach6.jpg" class="image program4" alt="Program 4">
+        <img src="outreach7.jpg" class="image program4" alt="Program 4">
+        <img src="outreach8.jpg" class="image program4" alt="Program 4">
+        <img src="Medical Camp  (17).jpg" class="image program7" alt="Program 7">
+        <img src="Medical Camp  (5).jpg" class="image program7" alt="Program 7">
+        <img src="Medical Camp  (8).jpg" class="image program7" alt="Program 7">
+        <img src="WhatsApp Image 2024-02-06 at 12.53.15 PM (1).jpeg" class="image program7" alt="Program 7">
+        <img src="WhatsApp Image 2024-02-06 at 12.53.16 PM (1).jpeg" class="image program7" alt="Program 7">
+        <img src="WhatsApp Image 2024-02-06 at 12.53.17 PM (1).jpeg" class="image program7" alt="Program 7">
+        <img src="WhatsApp Image 2024-02-06 at 12.53.18 PM (2).jpeg" class="image program7" alt="Program 7">
+        <img src="WhatsApp Image 2024-02-06 at 12.53.18 PM.jpeg" class="image program7" alt="Program 7">
+        <img src="WhatsApp Image 2024-02-20 at 3.35.33 PM.jpeg" class="image program7" alt="Program 7">
+        <img src="WhatsApp Image 2024-02-20 at 3.35.34 PM (1).jpeg" class="image program7" alt="Program 7">
+        <img src="IMG-20250218-WA0128.jpg" class="image program6" alt="Program 6">
+        <img src="IMG-20250218-WA0131.jpg" class="image program6" alt="Program 6">
+        <img src="IMG-20250218-WA0133.jpg" class="image program6" alt="Program 6">
+        <img src="IMG-20250218-WA0135.jpg" class="image program6" alt="Program 6">
+
+    </div>
+
+<footer>
+    <div class="footercontainer">
+        <div class="details">
+            <h3>Quick Links</h3>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="initiatives.html">Initiatives</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+
+        <div class="details">
+            <h3>Contact Us</h3>
+            <p><strong>Lifelong Learning and Extension Department</strong></p>
+            <p>Marian College Kuttikkanam (Autonomous), Idukki, Kerala</p>
+            <p><strong>&#128222;Phone:</strong> <a href="tel:+919496330297">+91-9496330297</a></p>
+            <p><strong>&#9993;Email:</strong>  
+                <a href="mailto:mail.hari@mariancollege.org">mail.hari@mariancollege.org</a>
+            </p>
+        </div>
+    </div>
+
+    <span class="divider1"></span>
+    <p class="copyright">© 2025 Group1 | Marian College Kuttikkanam</p>
+</footer>
+
+<script>
+    function filterImages(category) {
+let images = document.querySelectorAll('.image');
+
+images.forEach(img => {
+    if (category === 'all') {
+        img.classList.remove('hidden');
+    } else {
+        img.classList.toggle('hidden', !img.classList.contains(category));
+    }
+});
+}
+
+</script>
+</body>
+</html>
+
+
+
+
+
